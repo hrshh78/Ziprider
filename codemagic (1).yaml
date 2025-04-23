@@ -1,0 +1,22 @@
+
+workflows:
+  zipride-rider-app:
+    name: Zipride Rider App Build
+    environment:
+      flutter: "3.22.0"
+      xcode: latest
+      vars:
+        FIREBASE_ANDROID_JSON: Encrypted(${FIREBASE_ANDROID_JSON})
+    scripts:
+      - name: Install Flutter dependencies
+        script: |
+          flutter pub get
+      - name: Build APK
+        script: |
+          flutter build apk --release
+    artifacts:
+      - build/app/outputs/flutter-apk/app-release.apk
+    publishing:
+      email:
+        recipients:
+          - your-email@example.com  # optional
