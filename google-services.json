@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "575089355745",
+    "project_id": "zipride-app-5ce43",
+    "storage_bucket": "zipride-app-5ce43.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:575089355745:android:e1b245a95c0140f888c0a0",
+        "android_client_info": {
+          "package_name": "com.zipride.rider"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4SMWEK1QQ5Mr1zgB-bUZFuV-OF1rBpcY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
