@@ -1,0 +1,1 @@
+// Splash screen with animation and toggle theme button
